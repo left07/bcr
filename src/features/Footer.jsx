@@ -36,8 +36,24 @@ const Footer = () => {
             <p className="fw-bold">binarcarrental@gmail.com</p>
             <p className="fw-bold">08x-xxx-xxx-xxx</p>
           </div>
-          
-        
+          <div className="col-md-2 mb-3">
+            <p>Our Services</p>
+            <p>Why Us</p>
+            <p>Testimonial</p>
+            <p>FAQ</p>
+          </div>
+          <div className="col-md-3 mb-3">
+            <h6>Connect with us</h6>
+            <div className="row ">
+              <div className="col-12">{renderSocialMediaIcons}</div>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <h6>Copyright Binar 2024</h6>
+            <Link to="/car" className="btn btn-primary fw-bold">
+              BINAR
+            </Link>
+          </div>
         </div>
       </div>
     </section>

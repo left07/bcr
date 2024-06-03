@@ -14,7 +14,7 @@ const CtaBanner = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
               </p>
-              <Link to="/cars" className="btn btn-success fw-bold">
+              <Link to="/car" className="btn btn-success fw-bold">
                 Mulai Sewa Mobil
               </Link>
             </div>
